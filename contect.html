@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS STORE</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- css linl    -->
+    <link rel="stylesheet" href="index.css">
+
+
+
+
+    <!-- fontasome link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+
+
+
+    <!-- nav bar -->
+    <nav class="navbar">
+        <h1>SS Store</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collection</a></p>
+            <p class="navbar-link"><a href="contect.html">Conduct us</a></p>
+
+        </div>
+        <div class="navbar-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-sliders"></i>
+        </div>
+    </nav>
+
+    <!-- side nave bar -->
+
+    <div class="side-navbar">
+        <p style="text-align: right;"><i id="x" class="fa-solid fa-xmark" onclick="closeNavbar()"></i></p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">collection</a></p>
+            <p class="side-navbar-link"><a href="contect.html">Conduct us</a></p>
+
+        </div>
+    </div>
+
+    <!-- contect -->
+    <div class="contect-section">
+        <h1 style="padding-top: 30px;">Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have a question about our products, need assistance with your
+            order, or just want to share your thoughts, feel free to reach out to us.</p>
+
+        <form class="contect-form" action="https://formspree.io/f/xjvowzqk" method="POST">
+            <input type="text" name="name" placeholder="Your Name *" required>
+            <input type="email" name="email" placeholder="Your Email*" required>
+            <textarea name="message" rows="5" placeholder="Your feedback*" required></textarea>
+            <button class="contect-section-button" type="submit">Send Message</button>
+        </form>
+
+
+
+    <footer>
+        <div style="background-color: rgb(1, 1, 53); color: white; ">
+            <div class="footer">
+
+                <h2>SS store</h2>
+                <p>"At SS Store, we believe fashion should be stylish, comfortable, and affordable. Explore our wide
+                    range
+                    of dresses designed to bring out your best, no matter the occasion. Thank you for shopping with us!"
+                </p>
+                <div class="footer-icon">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-solid fa-web-awesome"></i>
+           </div>
+            
+        </div>
+
+    </footer>
+
+    <!-- js link -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
